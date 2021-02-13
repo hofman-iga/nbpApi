@@ -7,7 +7,9 @@
 * [Usage](#usage)
 
 ## General info
-Currency converter; enables converting certain currencies as well as checking exchange rates. Data is kept in MySQL Database.
+Currency converter; enables converting certain currencies as well as checking exchange rates. Data is extracted from NBP API http://api.nbp.pl from tables with current exchange rates. It is parsed with json parser and kept in MySQL Database.
+\
+Docker-compose file is used to 
 \
 Swagger UI was built to the project, so that it is easier to understand what endpoints are available.
   
