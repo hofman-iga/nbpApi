@@ -55,4 +55,4 @@ GET
 Convert chosen currency to another based on current exchange rate.\
        - code1 - currency code to be converted \
        - code2 - currency code to convert to\
-       - amount - amount of currency to be exchanged\
+       - amount - amount of currency to be exchanged
