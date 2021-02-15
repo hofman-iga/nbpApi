@@ -29,11 +29,18 @@ To run this project, install it locally:
 ```
 $ git clone git@github.com:hofman-iga/nbpApi.git
 
+Then run the following command in a terminal window (in the complete) directory:
+
+$ mvnw spring-boot:run
+
+Or run following command in the directory with docker-compose.yml: 
+
+$ docker-compose up
 ```
 
 ## Usage
 
-End points available in application: \ 
+End points available in application: 
 
 GET
 /nbp/all \
