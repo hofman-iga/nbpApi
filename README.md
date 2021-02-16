@@ -21,7 +21,7 @@ Project is created with:
 * MySQL database
 * NBP API
 * Docker
-* Swagger
+* Swagger UI
 	
 ## Installation
 To run this project, install it locally:
@@ -44,7 +44,7 @@ End points available in application:
 
 GET
 /nbp/all \
-Displays all currencies and exchange rates available in API.
+Displays all currencies and exchange rates available in API. Endpoint secured with API key.
 
 GET
 /nbp/available \
